@@ -93,4 +93,14 @@ body {
   }
 }
 
+body {
+  background-image: url("cerisiers.57e756ab.jpg");
+}
+
+.container {
+  background-color: #fffc;
+  width: 60%;
+  margin: auto;
+}
+
 /*# sourceMappingURL=index.867122b9.css.map */
