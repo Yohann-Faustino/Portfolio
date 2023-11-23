@@ -60,7 +60,7 @@ body {
   stroke-width: 10px;
   stroke-dasharray: 2500;
   stroke-dashoffset: 2500px;
-  animation: 5s forwards anim;
+  animation: 5s infinite forwards anim;
 }
 
 .lol path:nth-child(3), .lol path:nth-child(4) {
@@ -68,7 +68,7 @@ body {
   stroke-width: 10px;
   stroke-dasharray: 2500;
   stroke-dashoffset: 2500px;
-  animation: 5s forwards anim;
+  animation: 5s infinite forwards anim;
 }
 
 .lol path:nth-child(5), .lol path:nth-child(6), .lol path:nth-child(7), .lol path:nth-child(8) {
@@ -76,7 +76,7 @@ body {
   stroke-width: 10px;
   stroke-dasharray: 5000;
   stroke-dashoffset: 5000px;
-  animation: 5s forwards anim;
+  animation: 5s infinite forwards anim;
 }
 
 .lol path:nth-child(9), .lol path:nth-child(10) {
@@ -84,7 +84,7 @@ body {
   stroke-width: 10px;
   stroke-dasharray: 5000;
   stroke-dashoffset: 5000px;
-  animation: 5s forwards anim;
+  animation: 5s infinite forwards anim;
 }
 
 .lol path:nth-child(11), .lol path:nth-child(12) {
@@ -92,7 +92,7 @@ body {
   stroke-width: 10px;
   stroke-dasharray: 5000;
   stroke-dashoffset: 5000px;
-  animation: 5s forwards anim;
+  animation: 5s infinite forwards anim;
 }
 
 @keyframes anim {
@@ -125,6 +125,29 @@ header {
   margin-bottom: 20rem;
 }
 
+header a {
+  color: #ff00ea;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: .5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+header li {
+  border-width: 1px;
+  border-color: #000 #000 currentColor;
+  border-bottom-style: solid;
+  list-style: none;
+}
+
+header a:hover {
+  color: #ff00ea;
+  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-width: .5px;
+  border: 1px solid #10f;
+  border-radius: 5px;
+}
+
 nav {
   justify-content: space-around;
   margin-bottom: 10rem;
@@ -140,16 +163,16 @@ nav {
   transform: translate(-50%, -70%);
 }
 
-h1 {
-  text-align: center;
-}
-
-.projets__img {
-  width: 10%;
+.cadre {
+  width: 21%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 3310%);
+  transform: translate(-50%, -65%);
+}
+
+h1 {
+  text-align: center;
 }
 
 section {
@@ -180,12 +203,20 @@ section a:hover {
   background-color: #960096;
 }
 
-.miniature {
-  width: 3%;
-}
-
 .projets {
   margin-bottom: 4rem;
+}
+
+.projets__img {
+  width: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 3310%);
+}
+
+.miniature {
+  width: 3%;
 }
 
 footer {
