@@ -1,3 +1,5 @@
+@use '../../utils/vars';
+
 *{
     margin: 0%;
     padding: 0%;
@@ -20,7 +22,7 @@ body{
 /*Animation bonjour*/
 .lol path:nth-child(1) { /*Lettre o cercle exterieur*/
 
-    stroke: rgb(17, 0, 255);
+    stroke: vars.$coler_letter_paire;
     stroke-width: 10px;
     stroke-dasharray: 2500px;
     stroke-dashoffset: 2500px;
@@ -29,7 +31,7 @@ body{
 
 .lol path:nth-child(2) { /*Lettre o cercle interieur*/
 
-    stroke: rgb(17, 0, 255);
+    stroke: vars.$coler_letter_paire;
     stroke-width: 10px;
     stroke-dasharray: 2500px;
     stroke-dashoffset: 2500px;
@@ -38,7 +40,7 @@ body{
 
 .lol path:nth-child(3) { /*Deuxieme o cercle exterieur*/
 
-    stroke: rgb(0, 0, 0);
+    stroke: vars.$coler_letter_impaire;
     stroke-width: 10px;
     stroke-dasharray: 2500px;
     stroke-dashoffset: 2500px;
@@ -47,7 +49,7 @@ body{
 
 .lol path:nth-child(4) { /*Deuxieme o cercle interieur*/
 
-    stroke: rgb(0, 0, 0);
+    stroke: vars.$coler_letter_impaire;
     stroke-width: 10px;
     stroke-dasharray: 2500px;
     stroke-dashoffset: 2500px;
@@ -56,7 +58,7 @@ body{
 
 .lol path:nth-child(5) { /*Lettre b*/
 
-    stroke: rgb(0, 0, 0);
+    stroke: vars.$coler_letter_impaire;
     stroke-width: 10px;
     stroke-dasharray: 5000px;
     stroke-dashoffset: 5000px;
@@ -65,7 +67,7 @@ body{
 
 .lol path:nth-child(6) { /*Cercle superieur lettre b*/
 
-    stroke: rgb(0, 0, 0);
+    stroke: vars.$coler_letter_impaire;
     stroke-width: 10px;
     stroke-dasharray: 5000px;
     stroke-dashoffset: 5000px;
@@ -74,7 +76,7 @@ body{
 
 .lol path:nth-child(7) { /*Cercle inferieur lettre b*/
 
-    stroke: rgb(0, 0, 0);
+    stroke: vars.$coler_letter_impaire;
     stroke-width: 10px;
     stroke-dasharray: 5000px;
     stroke-dashoffset: 5000px;
@@ -83,7 +85,7 @@ body{
 
 .lol path:nth-child(8) { /*Lettre n*/
 
-    stroke: rgb(2, 2, 2);
+    stroke: vars.$coler_letter_impaire;
     stroke-width: 10px;
     stroke-dasharray: 5000px;
     stroke-dashoffset: 5000px;
@@ -92,7 +94,7 @@ body{
 
 .lol path:nth-child(9) { /*Lettre j*/
 
-    stroke: rgb(17, 0, 255);
+    stroke: vars.$coler_letter_paire;
     stroke-width: 10px;
     stroke-dasharray: 5000px;
     stroke-dashoffset: 5000px;
@@ -101,7 +103,7 @@ body{
 
 .lol path:nth-child(10) { /*Lettre u*/
 
-    stroke: rgb(17, 0, 255);
+    stroke: vars.$coler_letter_paire;
     stroke-width: 10px;
     stroke-dasharray: 5000px;
     stroke-dashoffset: 5000px;
@@ -110,16 +112,16 @@ body{
 
 .lol path:nth-child(11) { /*Lettre r*/
 
-    stroke: rgb(0, 0, 0);
+    stroke: vars.$coler_letter_impaire;
     stroke-width: 10px;
     stroke-dasharray: 5000px;
     stroke-dashoffset: 5000px;
     animation: anim 5s ease forwards;
 }
 
-.lol path:nth-child(12) {
+.lol path:nth-child(12) { /*Lettre r cercle interieur*/
 
-    stroke: rgb(0, 0, 0);
+    stroke: vars.$coler_letter_impaire;
     stroke-width: 10px;
     stroke-dasharray: 5000px;
     stroke-dashoffset: 5000px;

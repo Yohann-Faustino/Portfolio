@@ -56,7 +56,7 @@ body {
 }
 
 .lol path:first-child, .lol path:nth-child(2) {
-  stroke: #10f;
+  stroke: #03960f;
   stroke-width: 10px;
   stroke-dasharray: 2500;
   stroke-dashoffset: 2500px;
@@ -64,23 +64,15 @@ body {
 }
 
 .lol path:nth-child(3), .lol path:nth-child(4) {
-  stroke: #000;
+  stroke: #70f;
   stroke-width: 10px;
   stroke-dasharray: 2500;
   stroke-dashoffset: 2500px;
   animation: 5s forwards anim;
 }
 
-.lol path:nth-child(5), .lol path:nth-child(6), .lol path:nth-child(7) {
-  stroke: #000;
-  stroke-width: 10px;
-  stroke-dasharray: 5000;
-  stroke-dashoffset: 5000px;
-  animation: 5s forwards anim;
-}
-
-.lol path:nth-child(8) {
-  stroke: #020202;
+.lol path:nth-child(5), .lol path:nth-child(6), .lol path:nth-child(7), .lol path:nth-child(8) {
+  stroke: #70f;
   stroke-width: 10px;
   stroke-dasharray: 5000;
   stroke-dashoffset: 5000px;
@@ -88,7 +80,7 @@ body {
 }
 
 .lol path:nth-child(9), .lol path:nth-child(10) {
-  stroke: #10f;
+  stroke: #03960f;
   stroke-width: 10px;
   stroke-dasharray: 5000;
   stroke-dashoffset: 5000px;
@@ -96,7 +88,7 @@ body {
 }
 
 .lol path:nth-child(11), .lol path:nth-child(12) {
-  stroke: #000;
+  stroke: #70f;
   stroke-width: 10px;
   stroke-dasharray: 5000;
   stroke-dashoffset: 5000px;
@@ -111,12 +103,17 @@ body {
 
 body {
   background-image: url("cerisiers.57e756ab.jpg");
+  background-size: 1900px;
+  background-attachment: fixed;
+  font-family: Roboto, sans-serif;
 }
 
 .container {
   background-color: #fffc;
+  border-radius: 10px;
   width: 60%;
   margin: auto;
+  box-shadow: 5px 5px 30px #000;
 }
 
 body {
@@ -152,7 +149,7 @@ h1 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 3300%);
+  transform: translate(-50%, 3310%);
 }
 
 section {
@@ -172,18 +169,28 @@ section h2 {
 }
 
 section a {
-  color: pink;
+  color: #ff00ea;
   -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: .5px;
+  text-decoration: none;
 }
 
 section a:hover {
-  color: #000;
-  background-color: violet;
+  color: #fff;
+  background-color: #960096;
+}
+
+.miniature {
+  width: 3%;
+}
+
+.projets {
+  margin-bottom: 4rem;
 }
 
 footer {
   text-align: center;
+  font-size: large;
 }
 
 /*# sourceMappingURL=index.867122b9.css.map */

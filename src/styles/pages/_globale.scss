@@ -1,6 +1,12 @@
 body {
 
     background-image: url("./assets/img/cerisiers.jpg");
+    background-attachment: fixed;
+    background-size: 1900px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -8,5 +14,7 @@ body {
     width: 60%;
     margin: auto;
     background-color: rgba($color: #ffffff, $alpha: 0.8);
+    box-shadow: 5px 5px 30px rgb(0, 0, 0);
+    border-radius: 10px;
 }
 
