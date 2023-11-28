@@ -37,25 +37,14 @@ table {
   border-spacing: 0;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0%;
-  padding: 0%;
-}
-
-body {
-  width: 100%;
-  height: 100vh;
-}
-
-.lol {
+.animation {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -250%);
+  transform: translate(-50%, -240%);
 }
 
-.lol path:first-child, .lol path:nth-child(2) {
+.animation path:first-child, .animation path:nth-child(2) {
   stroke: #03960f;
   stroke-width: 10px;
   stroke-dasharray: 2500;
@@ -63,7 +52,7 @@ body {
   animation: 5s infinite forwards anim;
 }
 
-.lol path:nth-child(3), .lol path:nth-child(4) {
+.animation path:nth-child(3), .animation path:nth-child(4) {
   stroke: #70f;
   stroke-width: 10px;
   stroke-dasharray: 2500;
@@ -71,7 +60,7 @@ body {
   animation: 5s infinite forwards anim;
 }
 
-.lol path:nth-child(5), .lol path:nth-child(6), .lol path:nth-child(7), .lol path:nth-child(8) {
+.animation path:nth-child(5), .animation path:nth-child(6), .animation path:nth-child(7), .animation path:nth-child(8) {
   stroke: #70f;
   stroke-width: 10px;
   stroke-dasharray: 5000;
@@ -79,7 +68,7 @@ body {
   animation: 5s infinite forwards anim;
 }
 
-.lol path:nth-child(9), .lol path:nth-child(10) {
+.animation path:nth-child(9), .animation path:nth-child(10) {
   stroke: #03960f;
   stroke-width: 10px;
   stroke-dasharray: 5000;
@@ -87,7 +76,7 @@ body {
   animation: 5s infinite forwards anim;
 }
 
-.lol path:nth-child(11), .lol path:nth-child(12) {
+.animation path:nth-child(11), .animation path:nth-child(12) {
   stroke: #70f;
   stroke-width: 10px;
   stroke-dasharray: 5000;
@@ -98,6 +87,22 @@ body {
 @keyframes anim {
   to {
     stroke-dashoffset: 0;
+  }
+}
+
+@media (width <= 1323px) {
+  .animation {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -210%);
+  }
+}
+
+@media (width >= 1324px) {
+  .animation {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -210%);
   }
 }
 
@@ -131,6 +136,13 @@ header a {
   -webkit-text-stroke-width: .5px;
   padding: 5px;
   text-decoration: none;
+}
+
+header ul {
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  display: flex;
 }
 
 header li {
@@ -184,7 +196,7 @@ section {
 
 section h2 {
   text-align: center;
-  color: #00f;
+  color: #70f;
   margin-bottom: 2rem;
   font-size: xx-large;
   font-style: italic;
@@ -203,16 +215,21 @@ section a:hover {
   background-color: #960096;
 }
 
-.projets {
-  margin-bottom: 4rem;
+.projets__img {
+  width: 20%;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(90px, 60px);
 }
 
-.projets__img {
-  width: 10%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 3310%);
+.projets {
+  width: 92%;
+  position: relative;
+}
+
+.contacts {
+  margin-top: 3rem;
 }
 
 .miniature {

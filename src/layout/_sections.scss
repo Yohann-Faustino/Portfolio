@@ -11,7 +11,7 @@ section{
         margin-bottom: 2rem;
         font-style: italic;
         text-decoration: underline;
-        color: blue;
+        color: rgb(119, 0, 255);
     }
 
     a{
@@ -27,16 +27,23 @@ section{
     }
 }
 
-.projets {
-    margin-bottom: 4rem;
-
-    &__img {
-    width: 10%;
+.projets__img {
+ 
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, 3310%);
- }
+    width: 20%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(90, 60);
+}
+
+.projets {
+
+    width: 92%;
+    position: relative;
+}
+
+.contacts{
+    margin-top: 3rem;
 }
 
 .miniature {
