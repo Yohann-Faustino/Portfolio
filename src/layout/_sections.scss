@@ -28,22 +28,23 @@ section{
 }
 
 .projets__img {
- 
+    
+    width: 200px;
     position: absolute;
-    width: 20%;
+    position: static;
     right: 50%;
     bottom: 50%;
-    transform: translate(90, 60);
+    transform: translate(0, 0);
 }
 
-.projets {
-
-    width: 92%;
-    position: relative;
+.container {
+     position: relative;
 }
 
 .contacts{
-    margin-top: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
 }
 
 .miniature {

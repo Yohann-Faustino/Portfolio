@@ -3,9 +3,40 @@ body{
     line-height: 25px;
 }
 
-header{
+.boite_svg {
 
-    margin-bottom: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+
+    width: 15%;
+}
+
+.cadre {
+
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-49%, -6.5%);
+}
+
+.boite_header {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: solid;
+    border-color: red;
+    border-width: 1px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
 
     a{
         text-decoration: none;
@@ -36,33 +67,17 @@ header{
         -webkit-text-stroke-width: 0.5px;
     }
 }
+
 nav{
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    margin-bottom: 10rem;
-}
-
-.photo {
-
-    width: 10%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -70%);
-}
-
-.cadre {
-
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -65%);
-    width: 21%;
 }
 
 h1{
     text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 

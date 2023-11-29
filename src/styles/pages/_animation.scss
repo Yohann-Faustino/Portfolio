@@ -2,10 +2,7 @@
 
 .animation {
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -240%);
+    width: 80%;
 }
 
 /*Animation bonjour*/
@@ -135,21 +132,5 @@
     }
 }
 
- @media all and (max-width: 1323px) {
 
-    .animation{
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -210%);
-    }
- }
-
- @media all and (min-width: 1324px) {
-
-    .animation{
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -210%);
-    }
- }
 

@@ -38,10 +38,7 @@ table {
 }
 
 .animation {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -240%);
+  width: 80%;
 }
 
 .animation path:first-child, .animation path:nth-child(2) {
@@ -90,22 +87,6 @@ table {
   }
 }
 
-@media (width <= 1323px) {
-  .animation {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -210%);
-  }
-}
-
-@media (width >= 1324px) {
-  .animation {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -210%);
-  }
-}
-
 body {
   background-image: url("cerisiers.57e756ab.jpg");
   background-size: 1900px;
@@ -116,7 +97,7 @@ body {
 .container {
   background-color: #fffc;
   border-radius: 10px;
-  width: 60%;
+  width: 80%;
   margin: auto;
   box-shadow: 5px 5px 30px #000;
 }
@@ -126,8 +107,34 @@ body {
   line-height: 25px;
 }
 
+.boite_svg {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.photo {
+  width: 15%;
+}
+
+.cadre {
+  width: 25%;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-49%, -6.5%);
+}
+
+.boite_header {
+  border: 1px solid red;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
 header {
-  margin-bottom: 20rem;
+  flex-direction: column;
+  display: flex;
 }
 
 header a {
@@ -162,29 +169,14 @@ header a:hover {
 
 nav {
   justify-content: space-around;
-  margin-bottom: 10rem;
   padding: 10px;
   display: flex;
 }
 
-.photo {
-  width: 10%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -70%);
-}
-
-.cadre {
-  width: 21%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -65%);
-}
-
 h1 {
   text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
 }
 
 section {
@@ -216,20 +208,21 @@ section a:hover {
 }
 
 .projets__img {
-  width: 20%;
-  position: absolute;
+  width: 200px;
+  position: static;
   bottom: 50%;
   right: 50%;
-  transform: translate(90px, 60px);
+  transform: translate(0);
 }
 
-.projets {
-  width: 92%;
+.container {
   position: relative;
 }
 
 .contacts {
-  margin-top: 3rem;
+  align-items: center;
+  margin-top: 2rem;
+  display: flex;
 }
 
 .miniature {
