@@ -1,12 +1,11 @@
 @use '../../utils/vars';
 
-.animation {
+.animation { /*Animation du svg "bonjour"*/
 
-    width: 80%;
+    width: 80%; /*Taille de l'animation*/
 }
 
-/*Animation bonjour*/
-.animation path:nth-child(1) { /*Lettre o cercle exterieur*/
+.animation path:nth-child(1) { /*Lettre o cercle extérieur*/
 
     stroke: vars.$coler_letter_paire;
     stroke-width: 10px;
@@ -16,7 +15,7 @@
     animation-iteration-count: infinite;
 }
 
-.animation path:nth-child(2) { /*Lettre o cercle interieur*/
+.animation path:nth-child(2) { /*Lettre o cercle intérieur*/
 
     stroke: vars.$coler_letter_paire;
     stroke-width: 10px;
@@ -26,7 +25,7 @@
     animation-iteration-count: infinite;
 }
 
-.animation path:nth-child(3) { /*Deuxieme o cercle exterieur*/
+.animation path:nth-child(3) { /*Deuxieme o cercle extérieur*/
 
     stroke: vars.$coler_letter_impaire;
     stroke-width: 10px;
@@ -36,7 +35,7 @@
     animation-iteration-count: infinite;
 }
 
-.animation path:nth-child(4) { /*Deuxieme o cercle interieur*/
+.animation path:nth-child(4) { /*Deuxieme o cercle intérieur*/
 
     stroke: vars.$coler_letter_impaire;
     stroke-width: 10px;
@@ -56,7 +55,7 @@
     animation-iteration-count: infinite;
 }
 
-.animation path:nth-child(6) { /*Cercle superieur lettre b*/
+.animation path:nth-child(6) { /*Cercle supérieur lettre b*/
 
     stroke: vars.$coler_letter_impaire;
     stroke-width: 10px;
@@ -66,7 +65,7 @@
     animation-iteration-count: infinite;
 }
 
-.animation path:nth-child(7) { /*Cercle inferieur lettre b*/
+.animation path:nth-child(7) { /*Cercle inférieur lettre b*/
 
     stroke: vars.$coler_letter_impaire;
     stroke-width: 10px;
@@ -116,7 +115,7 @@
     animation-iteration-count: infinite;
 }
 
-.animation path:nth-child(12) { /*Lettre r cercle interieur*/
+.animation path:nth-child(12) { /*Lettre r cercle intérieur*/
 
     stroke: vars.$coler_letter_impaire;
     stroke-width: 10px;
@@ -126,9 +125,9 @@
     animation-iteration-count: infinite;
 }
 
-@keyframes anim{
+@keyframes anim{ /*On définis le type d'animation*/
     to {
-        stroke-dashoffset: 0;
+        stroke-dashoffset: 0; /*On décalle la position des pointillés*/
     }
 }
 

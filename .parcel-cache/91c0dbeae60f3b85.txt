@@ -6,7 +6,7 @@
 93C:\Users\student\Formation oclock\portfolio\node_modules\htmlparser2\lib\FeedHandler.d.ts.map133451341849506910 0
 78C:\Users\student\Formation oclock\portfolio\node_modules\csso\dist\csso.esm.js133451341877245814 0
 81C:\Users\student\Formation oclock\portfolio\node_modules\node-addon-api\nothing.c133451341831859392 0
-48C:\Users\student\Formation oclock\portfolio\dist133457492498700593 1
+48C:\Users\student\Formation oclock\portfolio\dist133458141702902042 1
 88C:\Users\student\Formation oclock\portfolio\node_modules\caniuse-lite\data\regions\SR.js133451341925222290 0
 104C:\Users\student\Formation oclock\portfolio\node_modules\core-js\full\async-iterator\as-indexed-pairs.js133451343137791091 0
 144C:\Users\student\Formation oclock\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\tokenizer\char-code-definitions.js133451341855201085 0
@@ -67,7 +67,7 @@
 85C:\Users\student\Formation oclock\portfolio\node_modules\core-js\es\symbol\species.js133451343196752312 0
 86C:\Users\student\Formation oclock\portfolio\node_modules\@swc\helpers\cjs\_extends.cjs133451341870300541 0
 95C:\Users\student\Formation oclock\portfolio\node_modules\css-tree\lib\generator\token-before.js133451341901411423 0
-67C:\Users\student\Formation oclock\portfolio\src\layout\_header.scss133457492496313486 0
+67C:\Users\student\Formation oclock\portfolio\src\layout\_header.scss133458141701328519 0
 103C:\Users\student\Formation oclock\portfolio\node_modules\css-tree\cjs\syntax\node\AttributeSelector.cjs133451341850468942 0
 47C:\Users\student\Formation oclock\portfolio\src133452044717363769 1
 88C:\Users\student\Formation oclock\portfolio\node_modules\caniuse-lite\data\regions\LC.js133451341916844890 0
@@ -108,7 +108,7 @@
 94C:\Users\student\Formation oclock\portfolio\node_modules\@mischnic\json-sourcemap\package.json133451341837690396 0
 97C:\Users\student\Formation oclock\portfolio\node_modules\core-js\stable\array\virtual\for-each.js133451343171886720 0
 91C:\Users\student\Formation oclock\portfolio\node_modules\css-tree\lib\syntax\node\String.js133451341900633879 0
-64C:\Users\student\Formation oclock\portfolio\src\utils\_vars.scss133452055900053903 0
+64C:\Users\student\Formation oclock\portfolio\src\utils\_vars.scss133458111611224883 0
 104C:\Users\student\Formation oclock\portfolio\node_modules\entities\lib\generated\decode-data-xml.d.ts.map133451341856447077 0
 109C:\Users\student\Formation oclock\portfolio\node_modules\caniuse-lite\data\features\link-rel-modulepreload.js133451341917044013 0
 93C:\Users\student\Formation oclock\portfolio\node_modules\core-js\actual\string\starts-with.js133451343197402411 0
@@ -144,12 +144,12 @@
 81C:\Users\student\Formation oclock\portfolio\node_modules\htmlparser2\package.json133451341848254193 0
 66C:\Users\student\Formation oclock\portfolio\src\styles\styles.scss133452186061956765 0
 84C:\Users\student\Formation oclock\portfolio\node_modules\@swc\helpers\esm\_update.js133451341892610829 0
-76C:\Users\student\Formation oclock\portfolio\src\styles\pages\_animation.scss133457476000807565 0
+76C:\Users\student\Formation oclock\portfolio\src\styles\pages\_animation.scss133458122138802054 0
 115C:\Users\student\Formation oclock\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\clean\Rule.js133451341870021007 0
 80C:\Users\student\Formation oclock\portfolio\node_modules\csso\cjs\clean\Rule.cjs133451341866387663 0
 87C:\Users\student\Formation oclock\portfolio\node_modules\core-js\modules\es.date.now.js133451343154981216 0
 86C:\Users\student\Formation oclock\portfolio\node_modules\core-js\features\string\at.js133451343140904449 0
-74C:\Users\student\Formation oclock\portfolio\src\styles\pages\_globale.scss133457454321781390 0
+74C:\Users\student\Formation oclock\portfolio\src\styles\pages\_globale.scss133458113317706336 0
 90C:\Users\student\Formation oclock\portfolio\node_modules\@parcel\workers\src\childState.js133451341850369350 0
 100C:\Users\student\Formation oclock\portfolio\node_modules\core-js\modules\esnext.iterator.to-async.js133451343162082317 0
 99C:\Users\student\Formation oclock\portfolio\node_modules\core-js\actual\string\virtual\fontcolor.js133451343171188473 0
@@ -267,14 +267,14 @@
 97C:\Users\student\Formation oclock\portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb133451341892620932 1
 128C:\Users\student\Formation oclock\portfolio\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\index.js133451341840676904 0
 78C:\Users\student\Formation oclock\portfolio\node_modules\domutils\lib\feeds.js133451341835261345 0
-67C:\Users\student\Formation oclock\portfolio\src\layout\_footer.scss133452185809835691 0
+67C:\Users\student\Formation oclock\portfolio\src\layout\_footer.scss133458109502063642 0
 74C:\Users\student\Formation oclock\portfolio\node_modules\is-json\README.md133451341836844844 0
 113C:\Users\student\Formation oclock\portfolio\node_modules\csso\node_modules\css-tree\lib\syntax\node\MediaQuery.js133451341895682267 0
 79C:\Users\student\Formation oclock\portfolio\node_modules\type-fest\package.json133451341834827895 0
 97C:\Users\student\Formation oclock\portfolio\node_modules\@parcel\source-map\dist\wasm-bindings.js133451341857825723 0
 101C:\Users\student\Formation oclock\portfolio\node_modules\lmdb\node_modules\node-addon-api\except.gypi133451341839734640 0
 92C:\Users\student\Formation oclock\portfolio\node_modules\htmlnano\lib\modules\minifyUrls.mjs133451341882884107 0
-69C:\Users\student\Formation oclock\portfolio\src\layout\_sections.scss133457465490480856 0
+69C:\Users\student\Formation oclock\portfolio\src\layout\_sections.scss133458140848601676 0
 94C:\Users\student\Formation oclock\portfolio\node_modules\@parcel\transformer-json\package.json133451341841589411 0
 81C:\Users\student\Formation oclock\portfolio\node_modules\semver\ranges\outside.js133451341864366953 0
 93C:\Users\student\Formation oclock\portfolio\node_modules\core-js\actual\array\reduce-right.js133451343191442692 0
@@ -3088,7 +3088,7 @@
 80C:\Users\student\Formation oclock\portfolio\node_modules\js-yaml\lib\type\str.js133451341865050585 0
 86C:\Users\student\Formation oclock\portfolio\node_modules\abortcontroller-polyfill\dist133451341852738914 1
 87C:\Users\student\Formation oclock\portfolio\node_modules\js-yaml\lib\schema\failsafe.js133451341851242902 0
-67C:\Users\student\Formation oclock\portfolio\dist\index.867122b9.css133457492498663797 0
+67C:\Users\student\Formation oclock\portfolio\dist\index.867122b9.css133458141702865937 0
 83C:\Users\student\Formation oclock\portfolio\node_modules\js-yaml\lib\schema\json.js133451341858476132 0
 148C:\Users\student\Formation oclock\portfolio\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-bad-engines\package.json133451341897145730 0
 84C:\Users\student\Formation oclock\portfolio\node_modules\js-yaml\dist\js-yaml.min.js133451341857909350 0
@@ -5346,7 +5346,7 @@
 102C:\Users\student\Formation oclock\portfolio\node_modules\@swc\helpers\esm\_class_private_method_get.js133451341886303294 0
 90C:\Users\student\Formation oclock\portfolio\node_modules\core-js\stable\string\trim-end.js133451343203213312 0
 92C:\Users\student\Formation oclock\portfolio\node_modules\core-js\modules\es.function.bind.js133451343155343307 0
-71C:\Users\student\Formation oclock\portfolio\dist\index.867122b9.css.map133457492498690249 0
+71C:\Users\student\Formation oclock\portfolio\dist\index.867122b9.css.map133458141702902042 0
 129C:\Users\student\Formation oclock\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Brackets.js133451341852635905 0
 86C:\Users\student\Formation oclock\portfolio\node_modules\core-js\stable\string\trim.js133451343204041161 0
 92C:\Users\student\Formation oclock\portfolio\node_modules\core-js\features\instance\filter.js133451343168481693 0

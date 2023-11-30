@@ -1,83 +1,77 @@
-body{
-    font-size: large;
-    line-height: 25px;
+body{ /*On travail le body*/
+    font-size: large; /*On agrandis la taille de la police*/
+    line-height: 25px; /*Espace entre les lignes*/
 }
 
-.boite_svg {
+.boite_svg { /*On travail la boite qui contient le "bonjour"*/
 
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    width: 100%; /*Taille de la boite*/
+    display: flex; /*On rend flexible la boite*/
+    justify-content: center; /*On centre le svg bonjour*/
 }
 
-.photo {
+.photo { /*Portrait*/
 
-    width: 15%;
+    width: 15%; /*Taille de la photo*/
 }
 
-.cadre {
+.cadre { /*Cadre autour de la photo*/
 
-    width: 25%;
-    position: absolute;
+    width: 20%; /*Taille du cadre*/
+    position: absolute; /*Position absolute pour pouvoir déplacer le cadre avec les 3 lignes suivantes*/
     left: 50%;
     right: 50%;
     transform: translate(-49%, -6.5%);
 }
 
-.boite_header {
+.boite_header { /*On travail la partie qui contient la photo et le cadre*/
 
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border: solid;
-    border-color: red;
-    border-width: 1px;
+    width: 100%; /*Taille de la boite qui contient la photo et l'encadrement*/
+    display: flex; /*On rend flexible*/
+    justify-content: center; /*On centre*/
+    margin-top: 2rem; /*On laisse de l'espace au-dessus par rapport a la naviguation*/
 }
 
-header{
-    display: flex;
-    flex-direction: column;
+header{ /*On travail le header*/
+    display: flex; /*On rend flexible*/
+    flex-direction: column; /*On dispose en colonnes*/
 
     a{
-        text-decoration: none;
-        color: rgb(255, 0, 234);
-        -webkit-text-stroke-color: black;
-        -webkit-text-stroke-width: 0.5px;
-        padding: 5px;
+        color: rgb(255, 0, 234); /*Couleur des liens*/
+        -webkit-text-stroke-color: black; /*On entoure la police des liens d'un trait noir*/
+        -webkit-text-stroke-width: 0.5px; /*Epaisseur du trait autour des lettres*/
+        padding: 5px; /*Espace autour des mots*/
     }
     ul{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        width: 100%; /*Prendre la taille du parent*/
+        display: flex; /*Rendre flexible*/
+        flex-direction: row; /*On met en ligne les éléments*/
+        justify-content: space-evenly; /*On met de l'espace entre les éléments et au début/fin*/
     }
     li{
-        list-style: none;
-        border-color: black;
-        border-bottom: solid;
-        border-width: 1px;
+        list-style: none; /*On retire les points de la liste*/
     }
-    a:hover{
-        border: solid;
-        border-color: rgb(17, 0, 255);
-        border-width: 1px;
-        border-radius: 5px;
-        color: rgb(255, 0, 234);
-        -webkit-text-stroke-color: rgb(0, 0, 0);
-        -webkit-text-stroke-width: 0.5px;
+    a:hover{ /*On demande un cover sur les liens de nav*/
+        border: solid; /*Type du trait de l'encadrement*/
+        border-color: rgb(17, 0, 255); /*Couleur  de l'encadrement*/
+        border-width: 1px; /*Epaisseur du trait de l'encadrement*/
+        border-radius: 5px; /*Arrondie de l'encadrement*/
+        color: rgb(255, 0, 234); /*Couleur du text lors du cover*/
+        -webkit-text-stroke-color: rgb(0, 0, 0); /*Couleur du trait autour de l'écriture*/
+        -webkit-text-stroke-width: 0.5px; /*Epaisseur du trait autour de l'écriture*/
     }
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
+nav{ /*on travail le nav*/
+    display: flex; /*On rend flexbible*/
+    justify-content: space-around; /*On met de l'espace entre chaque éléments et en début/fin*/
+    padding: 10px; /*On met de l'espace autour des mots*/
 }
 
-h1{
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 1rem;
+h1{ /*On travail le titre principal*/
+    text-align: center; /*On centre*/
+    font-weight: bold; /*On le met en gras*/
+    margin-bottom: 1rem; /*On met une marge en-dessous du titre*/
 }
 
 

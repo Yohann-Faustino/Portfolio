@@ -1,20 +1,20 @@
-body {
+body { /*On travail le body*/
 
-    background-image: url("./assets/img/cerisiers.jpg");
-    background-attachment: fixed;
-    background-size: 1900px;
-    font-family: 'Caveat', cursive;
+    background-image: url("./assets/img/cerisiers.jpg"); /*On choisis l'img de fond d'écran*/
+    background-attachment: fixed; /*On fixe l'image pour qu'elle reste immobile quand on déroule vers le bas de la page*/
+    background-size: 1900px; /*On choisis la taille de l'img*/
+    font-family: 'Caveat', cursive; /*Style de la police*/
     font-family: 'Dancing Script', cursive;
     font-family: 'Ephesis', cursive;
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
+.container{ /*On travail le container*/
 
-    width: 80%;
-    margin:auto;
-    background-color: rgba($color: #ffffff, $alpha: 0.8);
-    box-shadow: 5px 5px 30px rgb(0, 0, 0);
-    border-radius: 10px;
+    width: 80%; /*Taille de la partie (blanche) où l'on ecrit*/
+    margin:auto; /*Centre la partie où l'on écrit*/
+    background-color: rgba($color: #ffffff, $alpha: 0.8); /*On choisis la couleur et l'opacité de la partie où l'on écris*/
+    box-shadow: 5px 5px 30px rgb(0, 0, 0); /*Petite ombre autour de la partie où l'on écrit*/
+    border-radius: 10px; /*Arrondire les angles de la partie où l'on écrit*/
 }
 

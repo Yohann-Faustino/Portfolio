@@ -118,7 +118,7 @@ body {
 }
 
 .cadre {
-  width: 25%;
+  width: 20%;
   position: absolute;
   left: 50%;
   right: 50%;
@@ -126,9 +126,9 @@ body {
 }
 
 .boite_header {
-  border: 1px solid red;
   justify-content: center;
   width: 100%;
+  margin-top: 2rem;
   display: flex;
 }
 
@@ -142,7 +142,6 @@ header a {
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: .5px;
   padding: 5px;
-  text-decoration: none;
 }
 
 header ul {
@@ -153,9 +152,6 @@ header ul {
 }
 
 header li {
-  border-width: 1px;
-  border-color: #000 #000 currentColor;
-  border-bottom-style: solid;
   list-style: none;
 }
 
@@ -209,14 +205,6 @@ section a:hover {
 
 .projets__img {
   width: 200px;
-  position: static;
-  bottom: 50%;
-  right: 50%;
-  transform: translate(0);
-}
-
-.container {
-  position: relative;
 }
 
 .contacts {
