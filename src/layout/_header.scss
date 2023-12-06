@@ -37,16 +37,22 @@ header{ /*On travail le header*/
     flex-direction: column; /*On dispose en colonnes*/
 
     a{
-        color: rgb(255, 0, 234); /*Couleur des liens*/
+        color: rgb(119, 0, 255); /*Couleur des liens*/
         -webkit-text-stroke-color: black; /*On entoure la police des liens d'un trait noir*/
-        -webkit-text-stroke-width: 0.5px; /*Epaisseur du trait autour des lettres*/
+        -webkit-text-stroke-width: 0.4px; /*Epaisseur du trait autour des lettres*/
         padding: 5px; /*Espace autour des mots*/
+        text-decoration: none; /*On retire le soulignement*/
+        box-shadow: 0px 10px 20px rgb(3, 150, 15); /*On met une ombre violette*/
+        border-radius: 40% 0% 40% 0%; /*On met un effet en bas a droite*/
+        padding: 1rem; /*On met un peu d'espace autour des lettres pour aider l'effet banderole*/
+        
     }
     ul{
         width: 100%; /*Prendre la taille du parent*/
         display: flex; /*Rendre flexible*/
         flex-direction: row; /*On met en ligne les éléments*/
         justify-content: space-evenly; /*On met de l'espace entre les éléments et au début/fin*/
+        margin-top: 1rem; /*On met une marge au-dessus des liens pour mieux voir l'eefet banderole*/
     }
     li{
         list-style: none; /*On retire les points de la liste*/
