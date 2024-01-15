@@ -17,11 +17,11 @@ body{ /*On travail le body*/
 
 .cadre { /*Cadre autour de la photo*/
 
-    width: 20%; /*Taille du cadre*/
+    width: 16%; /*Taille du cadre*/
     position: absolute; /*Position absolute pour pouvoir déplacer le cadre avec les 3 lignes suivantes*/
     left: 50%;
     right: 50%;
-    transform: translate(-49%, -6.5%);
+    transform: translate(-49%, -7.5%);
 }
 
 .boite_header { /*On travail la partie qui contient la photo et le cadre*/
@@ -38,8 +38,6 @@ header{ /*On travail le header*/
 
     a{
         color: rgb(119, 0, 255); /*Couleur des liens*/
-        -webkit-text-stroke-color: black; /*On entoure la police des liens d'un trait noir*/
-        -webkit-text-stroke-width: 0.4px; /*Epaisseur du trait autour des lettres*/
         padding: 5px; /*Espace autour des mots*/
         text-decoration: none; /*On retire le soulignement*/
         box-shadow: 0px 10px 20px rgb(3, 150, 15); /*On met une ombre violette*/
