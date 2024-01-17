@@ -1,0 +1,66 @@
+@use '../utils/vars';
+
+.boite_description, .presentation, .contacts {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.miniature { /*On choisis la taille des icones*/
+
+    width: 8%;
+}
+
+.contacts {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10rem;
+    width: 15%;
+}
+
+
+h1 {
+
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+
+
+.animation {
+
+    margin: auto;
+    display: flex;
+    justify-items: left;
+}
+
+.boite_description{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 30rem;
+}
+
+.presentation {
+
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*border-color: red;
+border-width: 1px;
+border-style: solid;*/
+
+
+
+
+
+
+
+
+

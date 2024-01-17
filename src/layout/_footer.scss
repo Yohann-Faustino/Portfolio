@@ -1,4 +1,10 @@
-footer{ /*On travail le footer*/
-    text-align: center; /*On centre le texte*/
-    font-size: large; /*On agrandit la taille de la police*/
+footer, .remerciement, .remonte {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+
+    margin-bottom: 1rem;
 }

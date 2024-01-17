@@ -1,20 +1,40 @@
+@use '../../utils/vars';
+
 body { /*On travail le body*/
 
-    background-image: url("./assets/img/cerisiers.jpg"); /*On choisis l'img de fond d'écran*/
-    background-attachment: fixed; /*On fixe l'image pour qu'elle reste immobile quand on déroule vers le bas de la page*/
-    background-size: 1900px; /*On choisis la taille de l'img*/
-    font-family: 'Caveat', cursive; /*Style de la police*/
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Ephesis', cursive;
-    font-family: 'Roboto', sans-serif;
+    line-height: 25px; /*Espace entre les lignes*/
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("./assets/img/Japanese-Forest-Painting-AI-Generated-4K-Wallpaper.jpg");
+    font-weight: 800;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
 }
 
-.container{ /*On travail le container*/
-
-    width: 80%; /*Taille de la partie (blanche) où l'on ecrit*/
-    margin:auto; /*Centre la partie où l'on écrit*/
-    background-color: rgba($color: #ffffff, $alpha: 0.8); /*On choisis la couleur et l'opacité de la partie où l'on écris*/
-    box-shadow: 5px 5px 30px rgb(0, 0, 0); /*Petite ombre autour de la partie où l'on écrit*/
-    border-radius: 10px; /*Arrondire les angles de la partie où l'on écrit*/
+h2 {
+    padding: 1rem;
+    font-size: x-large;
+    border-bottom: 5px;
+    border-style: solid;
+    color: white;
 }
 
+a {
+    color: red;
+    
+}
+
+a:hover {
+
+    color: vars.$coler_letter_paire;
+    background-color: vars.$coler_letter_impaire;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 25%;
+    
+}
+/*border-width: 1px;
+  border-style: solid;
+  border-color: red;*/

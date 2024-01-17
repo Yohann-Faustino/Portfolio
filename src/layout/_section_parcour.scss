@@ -1,0 +1,22 @@
+.parcours, .parcours_pro, .parcours_sco {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.parcours_pro {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parcours_sco{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

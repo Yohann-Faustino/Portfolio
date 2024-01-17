@@ -4,7 +4,9 @@
 @use './pages/globale';
 
 @use '../layout/header';
-@use '../layout/sections';
+@use '../layout/section_presentation';
+@use '../layout/section_skills';
+@use '../layout/section_parcour';
 @use '../layout/footer';
 
 @use '../utils/vars';
