@@ -9,7 +9,7 @@ body { /*On travail le body*/
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 h2 {
@@ -21,17 +21,17 @@ h2 {
 }
 
 a {
-    color: red;
+    color: vars.$coler_liens;
     
 }
 
 a:hover {
 
     color: vars.$coler_letter_paire;
-    background-color: vars.$coler_letter_impaire;
-    border-width: 1px;
+    background-color: white;
+    border-width: 3px;
     border-style: solid;
-    border-color: red;
+    border-color: rgb(233, 93, 116);
     border-radius: 25%;
     
 }
