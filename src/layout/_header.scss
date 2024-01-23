@@ -6,6 +6,7 @@
 
 nav {
 
+    position: relative; /*position de celui qui reste immobile*/
     width: 40%;
 }
 
@@ -28,9 +29,12 @@ li {
 
 img.photo {
 
-    position: relative; /*position de celui qui reste immobile*/
-    width: 50%;
-    margin-left: 3rem;
+    position: absolute; /*position de celui qu'on deplace*/
+    position: absolute; /*position de celui qu'on deplace*/
+    top: 9%; /*on choisis de placer l'enfant au centre de la balise parent grace a ces deux elements*/
+    left: 6%; /*on choisis de placer l'enfant au centre de la balise parent grace a ces deux elements*/
+    transform: translate(-50%, -50%); /*on place celui ci en bougeant l'axe horizontale (-50%) et verticale (-50%)*/ 
+    width: 5.8%; /*on choisit la taille du cadre*/
 }
 
 img.cadre {
