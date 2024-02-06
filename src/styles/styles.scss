@@ -1,5 +1,3 @@
-@use 'reset-css';
-
 @use './pages/animation';
 @use './pages/globale';
 
@@ -10,3 +8,5 @@
 @use '../layout/footer';
 
 @use '../utils/vars';
+
+@import 'reset-css';
